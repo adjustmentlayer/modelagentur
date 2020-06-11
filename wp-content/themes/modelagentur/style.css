@@ -1,0 +1,226 @@
+/*
+Theme Name: Modelagentur-theme
+*/
+@font-face {
+    font-family: "Helvetica Neue Thin";
+    src: url(assets/fonts/HelveticaNeue-Thin.otf); }
+  
+  :root{
+    --near-white:#f6f6f6;
+    --light-gray:#f4f4f4;
+    --moon-gray:#e0e0e0;
+    --light-silver:#d5d5d5;
+    --silver:#6e6e6e;
+    --gray:#666666;
+    --gray-73:rgba(48, 48, 48, 0.73);
+  }
+  .light-gray{
+    color:var(--light-gray);
+  }
+  .light-silver{
+    color:var(--light-silver);
+  }
+  .bg-gray-73{
+    background-color: var(--gray-73);
+  }
+  .bg-near-white{
+    background-color: var(--near-white);
+  }
+  .bg-gray{
+    background-color: var(--gray);
+  }
+  .b--moon-gray{
+    border-color:var(--moon-gray);
+  }
+  *{
+    word-wrap: break-word;
+  }
+  
+  
+  .f5_5{
+    font-size: 0.9375rem;
+  }
+  .f4_4{
+    font-size: 1.125rem;
+  }
+  .f3_3{
+    font-size: 1.6875rem;
+  }
+  .f2_2{
+    font-size:2.1875rem;
+  }
+  .flex-grow1{
+    flex-grow: 1;
+  }
+  .feedback-form__textarea{
+    height:172px;
+  }
+
+  .mw9{
+    max-width: 63.75rem;
+  }
+
+
+  .mw6{
+    max-width: 28rem;
+  }
+  .mw5{
+    max-width: 24.50rem;
+  }
+
+  
+  /** placeholder **/
+  ::-webkit-input-placeholder { color: var(--light-silver) }
+  ::-moz-placeholder          { color: var(--light-silver) } /* Firefox 19+ */
+  :-moz-placeholder           { color: var(--light-silver) } /* Firefox 18- */
+  :-ms-input-placeholder      { color: var(--light-silver) }
+  
+  .helvetica-neue{
+    font-family:"Helvetica Neue Thin";
+  }
+  .helvetica{
+    font-family:helvetica,sans-serif;
+  }
+
+  .heading__has-separator::after{
+    content:"//";
+    margin-left:12px;
+  }
+  .heading__has-separator::before{
+    content:"//";
+    margin-right:12px;
+  }
+  header{
+    margin-top:-1px;
+  }
+  
+  
+  nav a:after{
+    content:"//";
+    margin-right:12px;
+    margin-left:12px;
+  }
+  nav a:last-child:after{
+    content:"";
+    margin-right:0;
+    margin-left:0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /** slick buttons customizations **/
+  .slider1 .slick-prev,
+  .slider1 .slick-next{
+    width: 42px;
+    height: 77px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, .59);
+    z-index:1;
+  }
+  .slider1 .slick-prev{
+    left:0;
+  }
+  .slider1 .slick-next{
+    right:0;
+  }
+  .slider1 .slick-prev:before,
+  .slider1 .slick-next:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight:900;
+    opacity:1;
+  }
+  .slider1 .slick-prev:before{
+    content:"\f053";
+  }
+  .slider1 .slick-next:before{
+    content:"\f054";
+  }
+  .slider1 .slick-prev:hover,
+  .slider1 .slick-prev:focus,
+  .slider1 .slick-next:hover,
+  .slider1 .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: rgba(255, 255, 255, .59);
+  }
+  
+  .slider2 .slick-prev,
+  .slider2 .slick-next{
+    width: 42px;
+    height: 77px;
+    opacity: 1;
+    z-index:1;
+  }
+  .slider2 .slick-prev{
+    left:-25;
+  }
+  .slider2 .slick-next{
+    right:25;
+  }
+  .slider2 .slick-prev:before,
+  .slider2 .slick-next:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight:900;
+    opacity:1;
+    color:#757575;
+  }
+  .slider2 .slick-prev:before{
+    content:"\f053";
+  }
+  .slider2 .slick-next:before{
+    content:"\f054";
+  }
+
+  .slick-track{
+    margin-left:0!important;
+  }
+
+  @media screen and (max-width: 30em){
+  
+  }
+  @media screen and (min-width: 30em) and (max-width: 60em){
+    .mw9{
+      max-width: 30rem;
+    }
+  }
+  @media screen and (min-width: 60em){
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
